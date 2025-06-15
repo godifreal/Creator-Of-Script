@@ -1,0 +1,40 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("Creator Of Script", "Default")
+
+local tab = DrRayLibrary.newTab("Menu", "ImageIdHere")
+
+tab.newButton("Fly", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HKPm33Pq"))()
+end)
+
+tab.newButton("Autoplay", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/godifreal/AutoplayUpdateV3/refs/heads/main/Fix",true))()
+end)
+
+tab.newButton("SimpleSpy", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+end)
+
+tab.newButton("f3x", "Prints Hello!", function()
+    loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+
+tab.newButton("Part Detector", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/godifreal/Part-Detector/refs/heads/main/1"))()
+end)
+
+tab.newButton("Explorer Mini", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/godifreal/Explorer-Mini/refs/heads/main/1"))()
+end)
+
+tab.newButton("Humanoid Info", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/godifreal/Humanoid-Info/refs/heads/main/1"))()
+end)
+
+tab.newButton("Instance Count", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/godifreal/Instance-Count/refs/heads/main/1"))()
+end)
+
+tab.newButton("Instance Finder", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://pastefy.app/JpPqwl6O/raw", true))()
+end)
